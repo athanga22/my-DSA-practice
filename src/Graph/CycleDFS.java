@@ -51,8 +51,6 @@ public class CycleDFS {
         adj.get(3).add(4);
         adj.get(4).add(3);
 
-        adj.get(4).add(1);
-        adj.get(1).add(4);
 
         CycleBFS cycleDetector = new CycleBFS();
 
